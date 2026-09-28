@@ -1,0 +1,80 @@
+{
+  "events": [
+    {
+      "id": "evt-cloud-summit",
+      "organizerId": "demo-organizer",
+      "title": "Cloud Native Summit",
+      "type": "Conference",
+      "description": "A focused afternoon on resilient systems, serverless architecture, and the teams building the next generation of cloud products.",
+      "date": "2026-10-18T18:30:00.000Z",
+      "venue": "Harbor House · Studio 4",
+      "capacity": 120,
+      "status": "PUBLISHED",
+      "counts": {
+        "going": 84,
+        "maybe": 18,
+        "notGoing": 7
+      }
+    },
+    {
+      "id": "evt-design-table",
+      "organizerId": "demo-organizer",
+      "title": "Product Design Table",
+      "type": "Workshop",
+      "description": "A small-group workshop for turning messy customer signals into clear product decisions.",
+      "date": "2026-10-23T16:00:00.000Z",
+      "venue": "Northstar Works · Room 2",
+      "capacity": 45,
+      "status": "PUBLISHED",
+      "counts": {
+        "going": 32,
+        "maybe": 6,
+        "notGoing": 2
+      }
+    },
+    {
+      "id": "evt-founders-breakfast",
+      "organizerId": "demo-organizer",
+      "title": "Founders Breakfast",
+      "type": "Community",
+      "description": "Coffee, honest operating stories, and a generous table for early-stage builders.",
+      "date": "2026-11-02T14:00:00.000Z",
+      "venue": "Morrow Cafe · Private Room",
+      "capacity": 32,
+      "status": "PUBLISHED",
+      "counts": {
+        "going": 18,
+        "maybe": 4,
+        "notGoing": 1
+      }
+    }
+  ],
+  "rsvps": [
+    {
+      "eventId": "evt-cloud-summit",
+      "attendeeId": "demo-attendee",
+      "status": "GOING"
+    },
+    {
+      "eventId": "evt-design-table",
+      "attendeeId": "validation-attendee",
+      "status": "GOING"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "eventId": "evt-cloud-summit",
+      "title": "Doors open at 6:00 PM",
+      "message": "Bring your QR invite and arrive early for check-in.",
+      "createdAt": "2026-09-26T10:00:00.000Z"
+    },
+    {
+      "id": "ann-2",
+      "eventId": "evt-cloud-summit",
+      "title": "Venue reminder",
+      "message": "Studio 4 is on the ground floor, next to the main lobby.",
+      "createdAt": "2026-09-24T10:00:00.000Z"
+    }
+  ]
+}
