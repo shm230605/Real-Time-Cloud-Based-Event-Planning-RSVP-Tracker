@@ -13,6 +13,8 @@ Spreadsheets and chat threads are poor sources of truth for attendance. GatherLi
 ## Features
 
 - Organizer dashboard with event cards, capacity progress, live counters, response rate, and response trend.
+- Sign in and account creation page with organizer or attendee role selection.
+- Local demo session persistence with sign-out from the profile avatar.
 - Attendee view with Going, Maybe, and Not going actions.
 - Event creation modal with validation and persisted JSON data.
 - One RSVP per attendee per event; changing a response adjusts counters safely.
@@ -102,12 +104,14 @@ After moving or renaming the folder to a path without `&`, `npm run dev:full` st
 ## Demo walkthrough
 
 1. Open the dashboard. Seeded synthetic events load from the API.
-2. Click `Attendee` in the left role switch.
-3. Select an event and choose `Going`, `Maybe`, or `Not going`.
-4. Watch the event card, detail panel, and capacity bar update through SSE.
-5. Switch back to `Organizer` and publish an announcement.
-6. Click `Create event`, complete the form, and publish a new event.
-7. Open a second browser tab pointed at the same frontend to demonstrate the live stream.
+2. On the welcome screen, choose `Create account`, enter a name, email, and password, then select `Organizer` or `Attendee`.
+3. Or choose `Use a demo account` to enter immediately with synthetic identity.
+4. Click `Attendee` in the left role switch.
+5. Select an event and choose `Going`, `Maybe`, or `Not going`.
+6. Watch the event card, detail panel, and capacity bar update through SSE.
+7. Switch back to `Organizer` and publish an announcement.
+8. Click `Create event`, complete the form, and publish a new event.
+9. Open a second browser tab pointed at the same frontend to demonstrate the live stream.
 
 ## API reference
 
