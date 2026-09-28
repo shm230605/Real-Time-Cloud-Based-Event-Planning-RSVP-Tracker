@@ -27,7 +27,7 @@
       "capacity": 45,
       "status": "PUBLISHED",
       "counts": {
-        "going": 32,
+        "going": 31,
         "maybe": 6,
         "notGoing": 2
       }
@@ -56,9 +56,9 @@
       "status": "GOING"
     },
     {
-      "eventId": "evt-design-table",
-      "attendeeId": "validation-attendee",
-      "status": "GOING"
+      "eventId": "evt-founders-breakfast",
+      "attendeeId": "demo-attendee",
+      "status": "MAYBE"
     }
   ],
   "announcements": [
