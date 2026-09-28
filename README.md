@@ -4,7 +4,6 @@
 
 GatherLive is a polished, student-friendly event operations workspace for creating events, tracking attendance, publishing updates, and testing real-time RSVP behavior without paid cloud infrastructure.
 
-![GatherLive dashboard](https://dummyimage.com/1200x650/e8f6f3/1d4e4a&text=GatherLive+dashboard)
 
 ## Why this project
 
